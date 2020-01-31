@@ -1,0 +1,13 @@
+<div (click)="cancelAutoNavigate()" class="h-100 w-100 d-flex flex-column justify-content-center align-items-center">
+	<p id="splashTitle">Custom Clocks</p>
+	<div id="bannerDateTime" class="small d-flex flex-column justify-content-center align-items-center">
+		<div class="date">{{date}}</div>
+		<div class="time">{{time}}</div>
+	</div>
+	<div class="mt-2">
+		<button class="btn btn-sm btn-link"(click)="openApp()">Open App</button>
+	</div>
+	<p [ngClass]="['fixed-bottom', 'text-center','text-muted', 'small']">Made with <span style="color: #e25555;">&#9829;</span> using
+		Stackblitz !
+	</p>
+</div>

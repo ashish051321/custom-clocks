@@ -1,0 +1,41 @@
+:host{
+  display:flex;
+  height:100vh;
+  width:100%;
+  background-color: #3a3842;
+  color:white;
+  justify-content:center;
+  align-items:center;
+}
+
+#takeBreak , #takeTimer{
+  background-color:lightgreen;
+  border: 1px solid transparent;
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+}
+
+div#takeBreak, div#takeTimer {
+  /* width: 140px;
+  height: 45px; */
+  font-weight: bold;
+  background-color: #3a3842;
+  /* border: none;
+  border-radius: 45px; */
+  color: #d5aaaa;
+  /* text-shadow: -2px -2px 2px 0 rgba(255,255,255, 1), 2px 2px 2px  0 rgba(0,0,0,.5); */
+  box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.2),
+          -10px -10px 20px 5px rgba(77, 71, 100, 0.4),
+          -1px -1px 4px 2px rgba(77, 71, 100, 0.4);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+div#takeBreak:active , div#takeTimer:active {
+box-shadow: 5px 5px 10px 2.5px rgba(0, 0, 0, 0.2),
+          -5px -5px 10px 2.5px rgba(77, 71, 100, 0.3),
+          -1px -1px 4px 2px rgba(77, 71, 100, 0.4);
+  transform: translateY(2px);
+}

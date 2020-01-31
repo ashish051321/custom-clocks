@@ -1,0 +1,25 @@
+/* Add application styles & imports to this file! */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+*{
+  padding: 0px;
+  margin:0px;
+}
+
+.flex-centering-horizontal{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.flex-centering-vertical{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+
+}
